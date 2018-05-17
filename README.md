@@ -38,7 +38,7 @@ or
 $ cd src/PDFBundle/Tool && npm install
 ```
 
-# Troubleshooting
+### Troubleshooting
 
 other things to consider when installing;
 
@@ -49,7 +49,7 @@ other things to consider when installing;
 
 ## PHP Api
 
-# Printing to a file
+### Printing to a file
 
 ```PHP
 PDFBundle\Tool::printToFile('http://www.google.com', 'google.pdf');
@@ -64,7 +64,7 @@ return schema;
 ]
 ```
 
-# Printing as data
+### Printing as data
 
 (requires `/tmp` to be writable)
 
@@ -82,7 +82,7 @@ return schema;
 ]
 ```
 
-# Printing as dataURI
+### Printing as dataURI
 
 (requires `/tmp` to be writable)
 
@@ -100,7 +100,7 @@ return schema;
 ]
 ```
 
-# Printing and providing as a download
+### Printing and providing as a download
 
 (requires `/tmp` to be writable)
 
