@@ -9,7 +9,7 @@ class Tool
     public static function printToFile($url, $path, $scale = 1)
     {
         $cmd = sprintf(
-            'node %sindex.js --url %s --path %s --scale %s  2>&1',
+            'node %sindex.js --url "%s" --path "%s" --scale %s  2>&1',
             self::TOOL_PATH,
             $url,
             $path,
