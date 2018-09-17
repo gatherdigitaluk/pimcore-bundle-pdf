@@ -28,7 +28,7 @@ Usage: $0 --url [url] --path [filename]`)
             console.log(`${i}: ${msg.args[i]}`);
         });
 
-        await page.goto(argv.url, {'waitUntil': 'networkidle', 'networkIdleTimeout': 3000});
+        await page.goto(argv.url, {'waitUntil': 'networkidle2'});
         await page.emulateMedia('screen');
         await page.pdf({
             path: argv.path,
